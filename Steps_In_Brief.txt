@@ -1,9 +1,19 @@
-Application (client) ID:727f597a-de9b-4673-82a8-f8c01ed9c4eb
+STEPS for ETL
 
-Directory (tenant) ID:358016a1-160c-4861-955d-2fa31befb120
+1.Extract data from GIT.
+2.Extraction is executed using ADF Pipeline
+3.The extracted raw data will be stored in Azure Data Lake.
+4.The raw data is transformed using  Pyspark in Azure Data Bricks.
+5.Transformed data is again stored in Azure Data Lake.
+6.Target tables are created In Azure Synapse Analytics  and transformed data are loaded to perform queries and analysis.
 
-client secret value: L838Q~S4Lqe4zlcmfvfip~G-7dWfR.crmf3l4ca-
 
-serverles sql end point : tokyo-olympic-sa-shreya-ondemand.sql.azuresynapse.net
+STEPS for Dashboarding(playing with csv and parquet format)
+
+1.Extract  the raw csv file from data lake using ADF pipeline in Azure Synapse Analytics.
+2.Data pipeline transforms source data type and writes back to data lake in parquet form
+3.Create spark database and point spark to parquet file.
+4.Query spark table using server less sql
+5.PowerBi reads from server less sql and projects graph.
 
 
