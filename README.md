@@ -22,5 +22,5 @@ Azure Synapse Analytics<br>
 
 
 #Dashboarding(PowerBI)<br>
-![Alt text](https://github.com/ShreyaDasmahapatra/Project-TokyoOlympic-Azure-PowerBI/blob/main/Architecture.png)
-
+![Alt text](https://github.com/ShreyaDasmahapatra/Project-TokyoOlympic-Azure-PowerBI/blob/main/2.png)
+![Alt text](https://github.com/ShreyaDasmahapatra/Project-TokyoOlympic-Azure-PowerBI/blob/main/3.png)
