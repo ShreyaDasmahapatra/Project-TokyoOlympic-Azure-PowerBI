@@ -1,8 +1,8 @@
 # Project-TokyoOlympic-Azure-PowerBI
 ![Alt text](https://github.com/ShreyaDasmahapatra/Project-TokyoOlympic-Azure-PowerBI/blob/main/Architecture.png)<br>
 
-#ETL Development(Azure)<br>
-Data Source<br>
+#ETL Development(Azure) <br>
+Data Source <br>
 1.Using GIT as our primary data source.<br>
 
 Azure Data Factory<br>
