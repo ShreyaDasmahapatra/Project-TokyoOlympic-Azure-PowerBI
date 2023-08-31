@@ -1,0 +1,20 @@
+--count the number of athletes from each country
+select Top(5) Country,count(*)  As No_Of_Participants from Athletes
+group by Country
+order by No_Of_Participants desc;
+
+--total number of medals won by each country
+Select Top(5) Team_Country,
+sum(Gold) as Total_Gold,
+sum(Silver) as Total_Silver,
+sum(Bronze) as Total_Bronze
+From Medals
+Group by Team_Country ;
+
+--Calculate average number of enteries by gender for each discipline
+select Top(5) Discipline,
+avg(Female) as Avg_Female,
+avg(Male) as Avg_Male
+from EnteriesGender
+Group By Discipline
+Order by Avg_Female desc

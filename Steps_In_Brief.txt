@@ -1,0 +1,9 @@
+Application (client) ID:727f597a-de9b-4673-82a8-f8c01ed9c4eb
+
+Directory (tenant) ID:358016a1-160c-4861-955d-2fa31befb120
+
+client secret value: L838Q~S4Lqe4zlcmfvfip~G-7dWfR.crmf3l4ca-
+
+serverles sql end point : tokyo-olympic-sa-shreya-ondemand.sql.azuresynapse.net
+
+
